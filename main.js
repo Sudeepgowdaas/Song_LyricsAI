@@ -3,11 +3,11 @@ import md from "markdown-it";
 import axios from 'axios';
 
 // Initialize the models
-const genAI = new GoogleGenerativeAI(`${"AIzaSyDP6MGK_SZ_XK_qZdVlc_zke4gtQj_-ugs"}`);
+const genAI = new GoogleGenerativeAI(`${"YOUR_GEMINI_API_Key"}`);
 const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-const stabilityAPIKey = "sk-ojoqFmoSwx3CGfw0qUDsQC7wcWQqefwlkomuna9vEdfFZEdA";
-const stabilityAPIUrl = "https://api.stability.ai/v2beta/generate";
+const stabilityAPIKey = "your_Stability_APLI_KEY";
+const stabilityAPIUrl = "url_of_stability";
 
 // Text and image generation history
 let history = [];
