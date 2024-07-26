@@ -19,7 +19,7 @@ The above image illustrates the user interface of ChatBot. Our chatbot integrate
 ## Installation and Setup
 
 1. **Clone the Repository**
-```bash
+```bash,,
 git clone [repository-url]
 ```
 
